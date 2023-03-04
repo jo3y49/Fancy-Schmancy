@@ -17,9 +17,9 @@ function makeFancy(){
     }
 }
 function makeMoo(){
-    let str = document.getElementById("text").value.toUpperCase();
-    let parts = str.split(".");
-    str = parts.join("-Moo.");
+    let str = document.getElementById("text").value;
+    let parts = str.split(" ");
+    str = parts.join("-Moo");
     document.getElementById("text").value = str;
 }
 
